@@ -31,43 +31,7 @@ Execute o sistema:
 python [app.py](http://_vscodecontentref_/0)
 Interface
 
-A janela ocupará toda a tela.
-Preencha os campos ou utilize o QR Code para buscar/cadastrar ferramentas.
-Utilize os botões para salvar, consultar ou buscar ferramentas.
-Estrutura dos Dados
-Cada ferramenta possui os seguintes campos:
 
-Nome
-Código (único, pode ser lido via QR Code)
-Categoria
-Localização
-Responsável
-Data de Aquisição
-Situação
-Observações
-O banco de dados é criado automaticamente no arquivo ferramentas.db.
-Evite duplicidade de códigos, pois o campo é único.
-O sistema foi projetado para uso em Windows, mas pode ser adaptado para outros sistemas.
-Dúvidas ou Melhorias
-Caso queira adicionar novas funcionalidades, melhorar a interface ou integrar com outros sistemas, entre em contato com o desenvolvedor ou consulte a documentação do Tkinter e SQLite.
-
-Nome
-Código (único, pode ser lido via QR Code)
-Categoria
-Localização
-Responsável
-Data de Aquisição
-Situação
-Observações
-O banco de dados é criado automaticamente no arquivo ferramentas.db.
-Evite duplicidade de códigos, pois o campo é único.
-O sistema foi projetado para uso em Windows, mas pode ser adaptado para outros sistemas.
-Dúvidas ou Melhorias
-Caso queira adicionar novas funcionalidades, melhorar a interface ou integrar com outros sistemas, entre em contato com o desenvolvedor ou consulte a documentação do Tkinter e SQLite.
-
-Desenvolvido por:
-Daniel Batista
-19 de agosto de 2025
 
 
 
