@@ -34,7 +34,7 @@ def ler_qr():
     if codigo:
         codigo_entry.delete(0, tk.END)
         codigo_entry.insert(0, codigo)
-        buscar_ferramenta()  # Busca automaticamente após ler o QR
+        buscar_ferramenta()  
 
 def limpar_campos():
     for entry in [nome_entry, codigo_entry, categoria_entry, localizacao_entry, responsavel_entry, data_entry, situacao_entry]:
@@ -68,7 +68,7 @@ def buscar_ferramenta():
     conn.close()
 
     if ferramenta:
-        # Preenche os campos com os dados encontrados
+       
         nome_entry.delete(0, tk.END)
         nome_entry.insert(0, ferramenta[0])
         codigo_entry.delete(0, tk.END)
